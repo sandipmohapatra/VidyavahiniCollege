@@ -14,4 +14,23 @@ update vidyastudents set dob='01-jun-2000' where rollno=101;
 update vidyastudents set dob='11-jul-2000' where rollno=102;
 
 Delete vidyastudents where rollno=101;
+
+desc vidyastudents
+
+select * from vidyastudents
+
+truncate table vidyastudents //delete all the rows
+
+drop table vidyastudents
 ------------------------------------------------------------------
+question 1:-
+create student table rollno,name,computer,sub1,sub2,sub3
+insert 10 rows
+Add columns total,average,grade (alter)
+------------------------------------------------------------------  
+question 2:-
+create employee table empno,name,designation ,address
+insert 10 rows
+add column salary number(9,2);
+9999999.99 <- you can enter 9 digits out of that 2 places of decimal.
+------------------------------------------------------------------------------------------------
