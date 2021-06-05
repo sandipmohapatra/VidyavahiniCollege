@@ -34,3 +34,27 @@ insert 10 rows
 add column salary number(9,2);
 9999999.99 <- you can enter 9 digits out of that 2 places of decimal.
 ------------------------------------------------------------------------------------------------
+create table studentvidya (rollno number,name varchar2(30),phy number,chem number,bio number);
+
+insert into studentvidya values(103,'praven',78,85,97);
+
+select * from studentvidya;
+
+alter table studentvidya add total number;
+
+alter table studentvidya add avg number;
+
+alter table studentvidya add grade varchar2(30);
+
+update studentvidya set total=phy+chem+bio where rollno in(101,102,103)
+
+update studentvidya set avg=total/3;
+
+update studentvidya set avg=round(avg,2);
+
+update studentvidya set grade='First Division' where avg>70; 
+
+update studentvidya set grade='second Division' where avg<70; 
+-----------------------------------------------------------------------------------------------------
+
+
