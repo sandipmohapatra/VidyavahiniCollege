@@ -57,4 +57,11 @@ update studentvidya set grade='First Division' where avg>70;
 update studentvidya set grade='second Division' where avg<70; 
 -----------------------------------------------------------------------------------------------------
 
-
+create table employee 
+empno,name,salary
+hra =40% of salary(house rent allownce)
+medical=10% of salary
+TA=10% of salary
+DA=10% of salary
+ITAX=20% of salary
+gross=(salary+ta+da+hra+medical)-ITAX
