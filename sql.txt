@@ -56,12 +56,40 @@ update studentvidya set grade='First Division' where avg>70;
 
 update studentvidya set grade='second Division' where avg<70; 
 -----------------------------------------------------------------------------------------------------
+constrains:-
+1)primary key:- if we make a column as primary key we cannot enter duplicate value and we cannot enter null value.
+or keep that column empty.
 
-create table employee 
-empno,name,salary
-hra =40% of salary(house rent allownce)
-medical=10% of salary
-TA=10% of salary
-DA=10% of salary
-ITAX=20% of salary
-gross=(salary+ta+da+hra+medical)-ITAX
+2)unique key:- if we make a column as unique we cannot enter duplicate values.
+
+3)not null:- if we make a column as not null we cannot  enter null value or keep it empty.
+
+4)check :- we can give limitation to the column.(example:- salary should be greater than 15000,mark should be greater than zero.
+------------------------------------------------------------------------
+create table vidyaemployee(empno number primary key,name varchar2(30) not null,address varchar2(30) unique,salary number check(salary >15000));
+
+insert into vidyaemployee values(102,'sandip','hyderabad',19000); 
+
+insert into vidyaemployee(name,empno,address,salary) values('Kiran',103,'chennei',25000);
+
+insert into vidyaemployee(name,empno,salary) values('sunil',104,25000);
+
+select * from vidyaemployee;
+
+----------------------------------------------------------------------------------------------
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
