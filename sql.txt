@@ -78,6 +78,14 @@ select * from vidyaemployee;
 
 ----------------------------------------------------------------------------------------------
  
+assignment:-
+-------------------
+create table student where rollno is primary key,name is not null,address is unique,marks should be 
+greater than 5.
+
+--------------------------------------------------
+
+
 
 
 
