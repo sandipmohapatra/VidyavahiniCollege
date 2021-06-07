@@ -82,12 +82,10 @@ assignment:-
 -------------------
 create table student where rollno is primary key,name is not null,address is unique,marks should be 
 greater than 5.
-
 --------------------------------------------------
-
-
-
-
+create table studentregister  where rollno is primary key,name is not null,address is unique,
+phoneno,DOB,emailid,password.
+-----------------------------------------------------------------
 
 
 
