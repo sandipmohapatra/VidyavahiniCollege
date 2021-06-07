@@ -87,6 +87,25 @@ create table studentregister  where rollno is primary key,name is not null,addre
 phoneno,DOB,emailid,password.
 -----------------------------------------------------------------
 
+create table vidyaemployee(empno number ,name varchar2(30),address varchar2(30),salary number ,HRA number,ta number,da number,medicin number,itax number,gross number );
+
+insert into vidyaemployee(empno,name,address,salary)values(103,'praveen','bangalore',19500);
+
+select * from vidyaemployee
+
+update vidyaemployee set HRA=salary*.10; 
+
+update vidyaemployee set TA=salary*.15; 
+
+update vidyaemployee set DA=salary*.05; 
+
+update vidyaemployee set medicin=salary*.10; 
+
+update vidyaemployee set itax=salary*.20; 
+
+update vidyaemployee set gross=(salary+hra+ta+da+medicin)-itax;
+ 
+-----------------------------------------------------------------------------------------------------------------
 
 
 
