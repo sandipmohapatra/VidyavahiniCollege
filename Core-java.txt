@@ -1,0 +1,77 @@
+package Tuesday;
+import java.lang.*;//default package in java 
+import java.util.*;
+public class First 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter 2 nos");
+		Scanner ob=new Scanner(System.in);
+		int a=ob.nextInt();
+		int b=ob.nextInt();
+		if(a>b)
+			System.out.println("the greatest is "+a);
+		else
+			System.out.println("the greatest is" +b);
+	}
+}
+
+----------------------------------------------------------------------------------------------
+package Tuesday;
+import java.lang.*;//default package in java 
+import java.util.*;
+public class First 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter 3 nos");
+		Scanner ob=new Scanner(System.in);
+		int a=ob.nextInt();
+		int b=ob.nextInt();
+		int c=ob.nextInt();
+			if(a>b && a>c)
+			System.out.println("the greatest is "+a);
+		else if(b>a && b>c)
+			System.out.println("the greatest is" +b);
+		else
+			System.out.println("the greatest is" +c);
+	}
+}
+
+------------------------------------------------------------------------------------------
+
+package Tuesday;
+import java.lang.*;//default package in java 
+import java.util.*;
+public class First //class contain variables and methods  
+{
+	int rollno;
+	String name,address;
+	public void input()
+	{
+		Scanner ob=new Scanner(System.in);
+		System.out.println("enter rollno,name,address");
+		rollno=ob.nextInt();
+		name=ob.next();
+		address=ob.next();
+	}
+	public void display()
+	{
+		System.out.println("the rollno is"+rollno);
+		System.out.println("the name is"+name);
+		System.out.println("the address is"+address);
+		}
+	public static void main(String[] args) 
+	{
+	First obj=new First();
+	obj.input();
+	obj.display();
+	}
+}
+-----------------------------------------------------------------------------------------------------
+Assignment:-
+
+//wap to create aa employee class having empno,name,address,salary
+
+-----------------------------------------------------------------------------
+
