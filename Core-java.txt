@@ -75,3 +75,35 @@ Assignment:-
 
 -----------------------------------------------------------------------------
 
+package Wednesday;
+import java.util.*;
+public class Employee 
+{
+int empno;
+String name,address;
+long phoneno;
+double salary;
+void input()
+{
+	Scanner ob=new Scanner(System.in);
+	System.out.println("enter empno,name,address,phoneno,salary");
+	empno=ob.nextInt();
+	name=ob.next();
+	address=ob.next();
+	phoneno=ob.nextLong();
+	salary=ob.nextDouble();
+	}
+void display()
+{
+	System.out.println("empno is "+empno);
+	System.out.println("name is "+name);
+	System.out.println("address is "+address);
+	System.out.println("phoneno is "+phoneno);
+	System.out.println("salary is "+salary);
+	}
+public static void main(String[] args) 
+{
+Employee ob=new Employee();
+ob.input();ob.display();
+}
+}
