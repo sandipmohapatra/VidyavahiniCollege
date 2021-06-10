@@ -107,3 +107,11 @@ Employee ob=new Employee();
 ob.input();ob.display();
 }
 }
+-------------------------------------------------------
+Assignment-2
+
+
+Create a bank application
+accno,name,address,balance 
+want to withdraw or deposite
+display the final balance
