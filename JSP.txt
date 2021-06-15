@@ -36,4 +36,23 @@ out.println("The email is "+d);
 out.println("<br>");
 out.println("The address is "+e);
 %>
--------------------------------------------------------------------      
+-------------------------------------------------------------------  
+<html>
+<body bgcolor=cyan>
+<form action=Second.jsp>
+<h1><center>Student Registration Page</center></h1><hr>
+<table>
+<tr><td>Enter your name</tr><tr><td><input type=text name=t1 size=20 required></tr>
+<tr><td>Enter your phone no</tr><tr><td><input type=number name=t2 size=20 required>
+<tr><td>Enter your DOB</tr><tr><td><input type=date name=t3 size=20 required>
+<tr><td>Enter your email</tr><tr><td><input type=email name=t4 size=20 required>
+<tr><td>Enter your address</tr><tr><td><textarea name=t5 rows="4" cols="21"></textarea>
+<tr><td><td><input type=submit value=submit><tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+    
