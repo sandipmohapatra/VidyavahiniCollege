@@ -1,0 +1,20 @@
+Servlet :- It is a server side programming language.
+It works in the same way as the Java server pages.
+---------------------------------------------------------------------------
+JSP is converted to servlet and then it runs.So servlet is faster than JSP.
+
+---------------------------------------------------
+Servlet are 2 types 
+1)generic servlet :- It can accept any type of protocal or it is protocaal independent.
+2)HTTP servlet:- It can accept only http protocal.
+--------------------------------------------------------Generic servlet---------------------------------------------------
+It doesnot have main methods .It has life cycle method.
+init()
+service()
+destroy()
+-------------------------------------------------------Http servlet------------------------------------------------------------   
+It doesnot have main methods .It has life cycle method.
+init()
+doGet(),doPost()
+destroy()
+------------------------------------------------------------------------------
