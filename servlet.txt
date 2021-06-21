@@ -18,3 +18,27 @@ init()
 doGet(),doPost()
 destroy()
 ------------------------------------------------------------------------------
+<form action=Student method=get//post>
+
+get method:-
+1)The data will be displayed on the URL
+2)It is not secured.
+3)We can pass limited data.(ie 255 characters only)
+4)If we use method=get then in the life cycle we will use doGet().
+------------------------------------------------------------------------------------- 
+post method:-
+1) The data will not be displayed on the URL
+2)It is secured
+3)We can pass unlimited data.
+4)If we use method=post then in the life cycle we will use doPost().
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
