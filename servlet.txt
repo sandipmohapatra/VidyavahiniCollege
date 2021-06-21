@@ -32,8 +32,69 @@ post method:-
 3)We can pass unlimited data.
 4)If we use method=post then in the life cycle we will use doPost().
 ----------------------------------------------------------------
+we have to import these packages
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.WebServlet;
+@WebServlet("/Student")
+------------------------------------------------------------------- 
+javax is the extention to java which is not present in the JDK 14 .so we have to add the jar files.
+
+jar files contains methods defined in it.
+
+we will find the servlet-api.jar in the tomcat server.
+--------------------------------------------------------------------------------
+<html>
+<body bgcolor=cyan>
+<form action=Student method=get>
+<h1><center>Student Registration Page</center></h1><hr>
+<table>
+<tr><td>Enter your name</tr><tr><td><input type=text name=t1 size=20 required></tr>
+<tr><td>Enter your phone no</tr><tr><td><input type=number name=t2 size=20 required>
+<tr><td>Enter your DOB</tr><tr><td><input type=date name=t3 size=20 required>
+<tr><td>Enter your email</tr><tr><td><input type=email name=t4 size=20 required>
+<tr><td>Enter your address</tr><tr><td><textarea name=t5 rows="4" cols="21"></textarea>
+<tr><td><td><input type=submit value=submit><tr>
+</table></form>
+</body>
+</html>
+---------------------------------------------------------------------------------------
+Student.java
+-----------------------------
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.WebServlet;
+@WebServlet("/Student")
+public class Student extends HttpServlet 
+{
+public void init()
+{}
+public void doGet()
+{}
+public void destroy()
+{}
+}
+-----------------------------------------------------------------------------
+*servlet-api.jar
+---------------------------------
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
++
 
 
 
