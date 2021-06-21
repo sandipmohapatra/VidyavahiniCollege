@@ -69,11 +69,11 @@ import javax.servlet.annotation.WebServlet;
 @WebServlet("/Student")
 public class Student extends HttpServlet 
 {
-public void init()
+public void init() <-----execute for 1 time when the servlet start.
 {}
-public void doGet()
+public void doGet()<-----this execute n number of times.
 {}
-public void destroy()
+public void destroy()<----------execute for 1 time when the servlet is closed.
 {}
 }
 -----------------------------------------------------------------------------
