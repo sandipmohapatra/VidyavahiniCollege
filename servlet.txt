@@ -12,6 +12,9 @@ It doesnot have main methods .It has life cycle method.
 init()
 service()
 destroy()
+
+*init() and destroy() will execute for one time
+service() will execute for n number of times. 
 -------------------------------------------------------Http servlet------------------------------------------------------------   
 It doesnot have main methods .It has life cycle method.
 init()
