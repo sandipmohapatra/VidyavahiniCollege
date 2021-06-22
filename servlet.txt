@@ -69,12 +69,33 @@ import javax.servlet.annotation.WebServlet;
 @WebServlet("/Student")
 public class Student extends HttpServlet 
 {
-public void init() <-----execute for 1 time when the servlet start.
-{}
-public void doGet()<-----this execute n number of times.
-{}
-public void destroy()<----------execute for 1 time when the servlet is closed.
-{}
+public void init()
+{
+System.out.println("init");
+}
+public void doGet(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException
+{
+	PrintWriter pw=res.getWriter();
+	res.setContentType("text/html");
+	String a=req.getParameter("t1");
+	String b=req.getParameter("t2");
+	String c=req.getParameter("t3");
+	String d=req.getParameter("t4");
+	String e=req.getParameter("t5");
+	pw.println("the name is "+a);
+	pw.println("<br>");
+	pw.println("the phone no is "+b);
+	pw.println("<br>");
+	pw.println("the Date of Birth  is "+c);
+	pw.println("<br>");
+	pw.println("the email is "+d);
+	pw.println("<br>");
+	pw.println("the address is "+e);
+		}
+public void destroy()
+{
+System.out.println("destroy");
+}
 }
 -----------------------------------------------------------------------------
 *servlet-api.jar
