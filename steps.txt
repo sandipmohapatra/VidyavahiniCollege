@@ -1,0 +1,49 @@
+we have installed the bea weblogic server
+1)how to complile your project?
+2)how to make  a .war file of your project?
+3)how to deploy the project into the server ?
+-------------------------------------------------------------------------
+1)how to complile your project and create the .war file ?
+
+step 1:C:\bea\user_projects\domains\sandip copy the setenv to the desktop.
+
+step 2:copy the path of the project and paste on the cmd prompt.
+
+step 3: set the path by draging the senenv to the cmd prompt.
+
+step 4:>jar -cvf music.war .
+-------------------------------------------------------------------------------------	
+3)how to deploy the project into the server ?
+
+goto ------>C:\bea\user_projects\domains\sandip\applications 
+
+and paste your .war file.
+------------------------------------------------------------------- 
+1)start the server
+------------------------------------------------
+2)modify the table add drop for all the tables first.
+example:- 
+drop table register;
+drop table contact;
+drop table feedback;
+----------------------------------------------------
+3)goto --->C:\bea\user_projects\domains\sandip\applications
+
+paste the .war file.
+
+---------------------------------------------------
+4)on the browser
+http://localhost:7001/beauty/index.html
+
+explaination :- port no/war file name/first page
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+ 
