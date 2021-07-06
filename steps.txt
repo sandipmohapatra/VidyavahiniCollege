@@ -18,10 +18,10 @@ step 4:>jar -cvf music.war .
 goto ------>C:\bea\user_projects\domains\sandip\applications 
 
 and paste your .war file.
-------------------------------------------------------------------- 
+---------------------------------Steps to run the Project---------------------------------- 
 1)start the server
 ------------------------------------------------
-2)modify the table add drop for all the tables first.
+2)modify the table add drop for all the tables first and paste it in oracle
 example:- 
 drop table register;
 drop table contact;
@@ -37,6 +37,41 @@ http://localhost:7001/beauty/index.html
 
 explaination :- port no/war file name/first page
 ------------------------------------------------------------------------
+
+Prepare the document
+--------------------------------
+changes to be made
+-----------------------------
+1)modify the abstract and write on your own about the project.
+2)diagram of the project
+3)tables of the project
+4)paste your code. (not full project 2 to 3 html and 2 to 3 java files.)
+5)paste the screen shots.
+----------------------------------100 marks viva-------------------------
+1)About the project
+2)existing and proposed system
+3)hardware and software requirements
+4)Diagram to tell the project modules and flow.
+5)Tables used
+6)Future anhancements
+7)show the tables (open oracle and show it)
+8)how html page is linked with java.(<form action="second" method=get>)
+--------------------------------------------------------------
+project -1
+-------------------
+Beauty Parlar
+---------------------
+1)Home page tells about your beauty parlar.
+2)Register or book a slot to your requirements.
+3)Package :- cost of each items or requirements (hair cut,eyebrow shape etc)
+4)gallery :- It is like catlog to select the style 
+5)contact :- to add customers details to contact them.(marketing)
+6)feedback :- to take opinion of customer to develop your self to do better.
+7)admin will see the reports like registered customer,contact of customer,feedback of customer.
+--------------------------------------------------------------------------------- 
+
+
+
 
 
 
