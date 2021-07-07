@@ -69,6 +69,37 @@ Beauty Parlar
 6)feedback :- to take opinion of customer to develop your self to do better.
 7)admin will see the reports like registered customer,contact of customer,feedback of customer.
 --------------------------------------------------------------------------------- 
+step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/beauty/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
+-------------------------------------------------------------------------------
+car rental:-
+---------------------
+1)you can rent a car for few days use it and pay the rent.
+2)Home:- home  page we have the details of the site and car booking form.
+3)About :- tells about the company.
+4)cars :-Different types of car available.
+5)service :- what type of services we provide like for trip,marriages and also car parking facilities.
+6)contact page for future contacts.
+7)feedback page for customers opinion.
+8)admin to see the report.
+-------------------------------------------------------------------------------------------------
+step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/car/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
