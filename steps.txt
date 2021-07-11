@@ -144,7 +144,14 @@ http://localhost:7001/pet/index.html
 step 5:- enter details in registeration,contact and feedback .
 step 6:- admin will login to see the report.
 --------------------------------------------------------------------
-
+Home page where you can see the pets for sale you can purchase them.
+1)you have to register and give your details.
+2)contact is where we can give our contact to get the pet delivered.
+3)agent is who is to sell the pets
+4)Admin who can view the registered person (who want to buy)
+contact details (where the pet has to be delivered)
+Agent is who will sell the pet.
+--------------------------------------------------------------------------------
 
 
 
