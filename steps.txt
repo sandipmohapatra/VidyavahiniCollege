@@ -1,7 +1,15 @@
 we have installed the bea weblogic server
+goto the project folder.
+
 1)how to complile your project?
+javac -d web-inf/classes *.java
+---------------------------------------------------------------------------------
 2)how to make  a .war file of your project?
+jar -cvf flight.war .
 3)how to deploy the project into the server ?
+C:\bea\user_projects\domains\sandip\applications 
+
+and paste your .war file.
 -------------------------------------------------------------------------
 1)how to complile your project and create the .war file ?
 
@@ -11,7 +19,9 @@ step 2:copy the path of the project and paste on the cmd prompt.
 
 step 3: set the path by draging the senenv to the cmd prompt.
 
-step 4:>jar -cvf music.war .
+step 4:>jar -cvf flight.war .
+
+step 5:to zip your project and deploy it into the server we have to do this.
 -------------------------------------------------------------------------------------	
 3)how to deploy the project into the server ?
 
@@ -96,10 +106,44 @@ http://localhost:7001/car/index.html
 step 5:- enter details in registeration,contact and feedback .
 step 6:- admin will login to see the report.
 -------------------------------------------------------------------------------------------------------------------
+COURIER MANAGEMENT SYSTEM
+-----------------------------------------------------------
+1)Home page :- In this we have to enter your details from where we want to send the courier to where we want to send the courier and we have some details of our company.
+2)about us :- this page tells about the courier comapany.
+3)service :- this page tells about the services we provide.
+4)gallery :- Historical changes made to the company.
+5)contact :- keeps the contact of customers for future use.
+6)admin :- he keeps the track of all activities.
+-----------------------------------------------------------------------------------------------
+ step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/cour/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
+------------------------------------------------------------------------------
+Flight management
+--------------------------------
+ step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/flight/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
 
-
-
-
+-------------------------------------------------------------
+Pet management
+--------------------------------
+ step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/pet/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
+--------------------------------------------------------------------
 
 
 
