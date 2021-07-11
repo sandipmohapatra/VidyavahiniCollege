@@ -152,7 +152,22 @@ Home page where you can see the pets for sale you can purchase them.
 contact details (where the pet has to be delivered)
 Agent is who will sell the pet.
 --------------------------------------------------------------------------------
-
+Electronic bill payment
+--------------------------------
+ step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/electric/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
+--------------------------------------------------------------------
+Home page where we can see the company details
+1)you have to register where we can give our details and type of bill we want to pay.
+2)contact is where the company is.
+3)Pay utility bill where we can give the bank details and pay the bill.
+4)Admin who can view the registered person and Bill payment details
+--------------------------------------------------------------------------------
 
 
 
