@@ -168,10 +168,39 @@ Home page where we can see the company details
 3)Pay utility bill where we can give the bank details and pay the bill.
 4)Admin who can view the registered person and Bill payment details
 --------------------------------------------------------------------------------
-
-
-
-
+E-music
+--------------------------------
+ step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/music1/index.html
+step 5:- enter details in registeration,contact and feedback .
+step 6:- admin will login to see the report.
+--------------------------------------------------------------------
+Home page where we can see the company details and services.
+1)you have menu where we can give our order.
+2)contact is where the company is.
+3)Pay utility bill where we can give the bank details and pay the bill.
+4)Admin who can view the registered person and Bill payment details
+--------------------------------------------------------------------------------
+JOB PORTAL
+------------------------------------
+1)sarting page is the register page.after register you can go for login.Then we have an aptitude test.
+2)then we can apply for job.
+3)we have different types of job 1)software 2)hardware 3)civil 4)call center 5)gov
+4)contact page where you can enter your contact details.
+5)admin page where he can login and view all the jobs applied for.
+6)admin can conduct the interview by phone or call for a face to face round of interview.
+---------------------------------------------------- 
+ step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/job/login.html
+step 5:- enter details in registeration,contact .
+step 6:- admin will login to see the report.
+--------------------------------------------------------------------------
 
 
 
