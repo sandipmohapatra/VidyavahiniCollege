@@ -87,6 +87,8 @@ http://localhost:7001/beauty/index.html
 step 5:- enter details in registeration,contact and feedback .
 step 6:- admin will login to see the report.
 -------------------------------------------------------------------------------
+project -2
+-------------------
 car rental:-
 ---------------------
 1)you can rent a car for few days use it and pay the rent.
@@ -106,6 +108,8 @@ http://localhost:7001/car/index.html
 step 5:- enter details in registeration,contact and feedback .
 step 6:- admin will login to see the report.
 -------------------------------------------------------------------------------------------------------------------
+project -3
+-------------------
 COURIER MANAGEMENT SYSTEM
 -----------------------------------------------------------
 1)Home page :- In this we have to enter your details from where we want to send the courier to where we want to send the courier and we have some details of our company.
@@ -123,6 +127,8 @@ http://localhost:7001/cour/index.html
 step 5:- enter details in registeration,contact and feedback .
 step 6:- admin will login to see the report.
 ------------------------------------------------------------------------------
+project -4
+-------------------
 Flight management
 --------------------------------
  step 1:- paste the table into oracle(one time)
@@ -134,6 +140,8 @@ step 5:- enter details in registeration,contact and feedback .
 step 6:- admin will login to see the report.
 
 -------------------------------------------------------------
+project -5
+-------------------
 Pet management
 --------------------------------
  step 1:- paste the table into oracle(one time)
@@ -152,6 +160,8 @@ Home page where you can see the pets for sale you can purchase them.
 contact details (where the pet has to be delivered)
 Agent is who will sell the pet.
 --------------------------------------------------------------------------------
+project -6
+-------------------
 Electronic bill payment
 --------------------------------
  step 1:- paste the table into oracle(one time)
@@ -168,6 +178,8 @@ Home page where we can see the company details
 3)Pay utility bill where we can give the bank details and pay the bill.
 4)Admin who can view the registered person and Bill payment details
 --------------------------------------------------------------------------------
+project -7
+-------------------
 E-music
 --------------------------------
  step 1:- paste the table into oracle(one time)
@@ -184,6 +196,8 @@ Home page where we can see the company details and services.
 3)Pay utility bill where we can give the bank details and pay the bill.
 4)Admin who can view the registered person and Bill payment details
 --------------------------------------------------------------------------------
+project -8
+-------------------
 JOB PORTAL
 ------------------------------------
 1)sarting page is the register page.after register you can go for login.Then we have an aptitude test.
@@ -201,6 +215,90 @@ http://localhost:7001/job/login.html
 step 5:- enter details in registeration,contact .
 step 6:- admin will login to see the report.
 --------------------------------------------------------------------------
+project -9
+--------------------------
+Online Magazine
+--------------------------
+1)Home page where we can view the latest new about politics,games,sports,vechiles,fashion,education,cenema etc for gaining knowledge on current affires.
+2)we have a login and logout page
+3)the person has to register first .he can become a primium customer by paying rent for quaterly,half yearly and yearly bases.
+4)Then he can download the magazines.non-primium customers can not read the magazines.
+5)admin is there to view the register report,premium customers and non-premium customers.
+6)we have contact page to store for future use.
+----------------------------------------------------------------------------------
+step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/mag/login.html
+step 5:- enter details in registeration,contact .
+step 6:- admin will login to see the report.
+----------------------------------------------------------------------------------------
+project -10
+--------------------------
+women safety
+-----------------------
+This project is about women saftey.
+1)In the home page we have the details of the project.
+2)we have support page .it tells about the support we provide to the women.
+3)we have blog which give daily news.about women crime and about us page. 
+4)women can register herself.
+5)she can book a compaint so that step can be taken against it.
+6)contact for contacting the women for future use.
+7)Admin page where admin can login and view the reports.
+-------------------------------------------------------------------------------------------------------
+step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/wom/login.html
+step 5:- enter details in registeration,contact .
+step 6:- admin will login to see the report.
+--------------------------------------------------------------------
+ travel guide
+-------------------
+1)The first page is E-TOUR.html where we can register and login.
+2)After login we can goto the home page.
+3)we have accomodation for booking the hotel.
+4)galary to view the tourist places.
+5)feedback to give the feedback about the site.
+6)agent can register to become a travel guide.
+7)admin can see the reports of the customers.
+8)contact is for future contact.This is used for marketing purpose.
+------------------------------------------------------------------------------------
+step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/travel/E-TOUR.html
+step 5:- enter details in registeration,contact .
+step 6:- admin will login to see the report.
+-----------------------------------------------------------------------
+online shopping
+-----------------------
+1)we have home page ,customer and admin page
+2)in the customer page we have for kids,men,women,accasories.
+3)we can view different catagories .we have facility to buy product,return ,exchange,register and product booking.
+4)all the details can be seen by admin.
+5)Admin can view all the reports like 
+registered customers,cloths purchased,cloth returned,cloth exchanged ,cloth canceled etc.
+--------------------------------------------------------------
+step 1:- paste the table into oracle(one time)
+step 2:- start the server
+step 3:- paste the .war file into C:\bea\user_projects\domains\sandip\applications(one time)
+step 4:- open the browser 
+http://localhost:7001/shop/index.html
+step 5:- enter details in buy product,return ,exchange,register and product booking,contact .
+step 6:- admin will login to see the reports.
+--------------------------------------------------------------------------------------------
+student friends
+---------------------------
+
+
+
+
+
+
 
 
 
