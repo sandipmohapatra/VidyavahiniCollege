@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+     <title>Beauty Parlour </title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--ANIMATED FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
+     <!--PRETTYPHOTO MAIN STYLE -->
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+       <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]--></head>
+
+<script>
+
+function alpha(e)
+{
+var k;
+document.all ?  k = e.keycode : k = e.which;
+return ((k > 64 && k < 91) || (k > 96 && k < 123) || (k == 8) || (k == 46));
+}
+
+function fun()
+{
+   var t1=f1.t1.value;
+  var t2=f1.t2.value;
+ var t3=f1.t3.value;
+   var t4=f1.t4.value;
+ var t5=f1.t5.value;
+ var t6=f1.t6.value;
+   var t7=f1.t7.value;
+   if(t1=="")
+   {
+   alert("name is empty");
+   f1.t1.focus();
+   }
+  else if(t2=="")
+   {
+   alert("address is empty");
+   f1.t2.focus();
+   }
+    else if(t3=="")
+   {
+   alert("Phone no is empty");
+   f1.t3.focus();
+   }
+else if(t4=="")
+   {
+   alert("Email Id is empty");
+   f1.t4.focus();
+   }
+else if(t5=="")
+   {
+   alert("Requirement is empty");
+   f1.t5.focus();
+   }
+else if(t6=="")
+   {
+   alert("Appointment date is empty");
+   f1.t6.focus();
+   }
+else if(t7=="")
+   {
+   alert("Appointment time is empty");
+   f1.t7.focus();
+   }
+  else
+   {
+    alert("data submited successfully");
+f1.submit();
+   }
+   }
+</script>
+
+<body>
+     <!-- NAV SECTION -->
+         <div class="navbar navbar-inverse navbar-fixed-top">
+       
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BEAUTY PARLOUR</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="Register.html">REGISTRATION</a></li>
+                    <li><a href="Package.html">PACKAGE</a></li>
+                     <li><a href="Gallery.html">GALLERY</a></li>
+                   <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="admin.html">ADMIN</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+     <!--END NAV SECTION -->
+    
+  
+
+    <!--CONTACT SECTION-->    
+    <section  id="services-sec">
+        <div class="container">
+            <div class="row ">
+                <div class="text-center g-pad-bottom">
+                   <div class="col-md-4 col-sm-4 alert-info">
+                            <h4><i class="fa fa-laptop fa-2x" ></i>&nbsp;Our Location </h4>
+                            <p>
+                               CUSTOMER REGISTRATION PAGE
+                            </p>
+                            
+                    </div>
+                    <div class="col-md-4 col-sm-4 alert-success">
+                            <h4><i class="fa fa-microphone fa-2x" ></i>&nbsp;Our Values</h4>
+                            <p>
+                               CUSTOMER REGISTRATION PAGE
+
+                            </p>
+                            
+                    </div>
+                   
+                    <div class="col-md-4 col-sm-4 alert-danger">
+                            <h4><i class="fa fa-pencil fa-2x" ></i>&nbsp; Our Mission </h4>
+                            <p>
+                                CUSTOMER REGISTRATION PAGE
+
+                            </p>
+                          
+                    </div>
+                </div>
+                  </div>
+            
+        
+        </div>
+    </section>
+    
+    <section  >
+        <div class="container">
+             
+            <div class="row g-pad-bottom">
+                <div class="col-md-6 ">
+                    <h2> CUSTOMER REGISTRATION PAGE
+</h2>
+                 
+                    <p>
+                         
+<form action=register method=get name=f1>
+<h1><center>Customer Registration Page</center></h1><hr color=red><hr color=blue>
+<table>
+<tr><td>Enter your name<td><input type=text name=t1 size=20 onkeypress="return alpha(event)"></tr>
+<tr><td>Enter your address<td><input type=text name=t2 size=20></tr>
+<tr><td>Enter your phone no<td><input type=text name=t3 size=20></tr>
+<tr><td>Enter your email<td><input type=email name=t4 size=20></tr>
+<tr><td>Enter your Requirement<td><select name=t5>
+<option>Eye Brow Shape</option>
+<option>Faciale</option>
+<option>Padicure</option>
+<option>Manicure</option>
+<option>Hair Cut</option>
+</tr>
+<tr><td>Enter date of Appointment<td><input type=date name=t6 size=20></tr>
+<tr><td>Enter Time of Appointment<td><input type=time name=t7 size=20></tr>
+<tr><td><td><input type=button value=submit onClick=fun()></tr>
+
+
+</table></form>
+
+
+                    </p>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="form-group">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.095151861572!2d77.58911580886706!3d13.029612314483233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17bc281a3f8d%3A0xbb4669c3b202322f!2sVidyavahini%20First%20Grade%20College!5e0!3m2!1sen!2sin!4v1625020816176!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END CONTACT SECTION-->
+
+   
+
+   
+
+    <!--FOOTER SECTION -->
+    <div id="footer">
+        2014 www.yourdomain.com | All Right Reserved  
+         
+    </div>
+    <!-- END FOOTER SECTION -->
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.min.js"></script>  
+     <!-- ISOTOPE SCRIPT   -->
+    <script src="assets/plugins/jquery.isotope.min.js"></script>
+    <!-- PRETTY PHOTO SCRIPT   -->
+    <script src="assets/plugins/jquery.prettyPhoto.js"></script>    
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
